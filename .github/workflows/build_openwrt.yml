@@ -21,7 +21,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@dev-master
+        uses: actions/checkout@master
         with:
           ref: dev-master
           fetch-depth: 1000000
