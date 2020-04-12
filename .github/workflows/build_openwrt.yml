@@ -21,9 +21,9 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@master
+        uses: actions/checkout@dev-master
         with:
-          ref: master
+          ref: dev-master
           fetch-depth: 1000000
 
       - name: Space cleanup
